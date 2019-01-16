@@ -10,7 +10,7 @@ Dark green: #28b485;
   box-sizing: border-box; }
 
 html {
-  font-size: 5px; }
+  font-size: 50%; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -47,7 +47,7 @@ body {
   backface-visibility: hidden; }
   .heading-primary-main {
     display: block;
-    font-size: 6rem;
+    font-size: 10rem;
     font-weight: 900;
     letter-spacing: 3rem;
     margin-right: -3rem;
@@ -56,10 +56,10 @@ body {
     animation-timing-function: ease-in-out; }
   .heading-primary-sub {
     display: block;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
-    letter-spacing: 1.4rem;
-    margin-right: -1.4rem;
+    letter-spacing: 1.6rem;
+    margin-right: -1.6rem;
     animation: moveInRight 1s ease-in-out; }
 
 @keyframes moveInLeft {
@@ -98,10 +98,10 @@ body {
   text-decoration: none;
   padding: 2rem 4rem;
   border-radius: 100rem;
-  margin-top: 5rem;
+  margin-top: 6rem;
   transition: all .2s;
   position: relative;
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 .btn:hover {
   transform: translateY(-0.4rem);
