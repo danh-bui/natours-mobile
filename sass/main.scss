@@ -64,9 +64,9 @@ body {
   backface-visibility: hidden;
   &-main {
     display: block;
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: 900;
-    letter-spacing: 3rem;
+    letter-spacing: 2rem;
     margin-right: -3rem;
 
     animation-name: moveInLeft;
@@ -75,9 +75,9 @@ body {
   }
   &-sub {
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 1.6rem;
+    letter-spacing: 1.2rem;
     margin-right: -1.6rem;
 
     animation: moveInRight 1s ease-in-out;
@@ -132,12 +132,12 @@ body {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 2rem 4rem;
+    padding: 1.5rem 3rem;
     border-radius: 100rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
     transition: all .2s;
     position: relative;
-    font-size: 3rem;
+    font-size: 1.6rem;
   }
   &:hover {
     transform: translateY(-.4rem);
