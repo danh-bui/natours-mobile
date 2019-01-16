@@ -4,7 +4,7 @@
   "description": "Landing page for Natours",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d Natours-mobile"
+    "deploy": "gh-pages -d Natours-mobile",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
@@ -19,11 +19,10 @@
   "bugs": {
     "url": "https://github.com/danh-bui/natours-mobile-first/issues"
   },
-  "homepage": "https://github.com/danh-bui/natours-mobile-first#readme",
+  "homepage": "https://danh-bui.github.io/natours-mobile",
   "devDependencies": {
     "node-sass": "^4.11.0"
   },
-  "homepage":"https://danh-bui.github.io/natours-mobile",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
